@@ -1,0 +1,22 @@
+.start-contatiner {
+  background-color: #C5D2DB;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills-contatiner {
+  /* background-color: #d16321; */
+  /* background-color: #c58896; */
+  background-color:#c58896b8;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.start-contatiner h2 {
+  padding-top: 30px;
+}
+
+
+.start-contatiner button {
+  margin: 50px 0px;
+}

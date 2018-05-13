@@ -1,0 +1,24 @@
+.footer-container {
+  background-color: #e7b183ad;
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer-container p {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  background-color: #e7b183ad;
+  border-radius: 12px;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.button p, .button h4 {
+  padding: 0px;
+}

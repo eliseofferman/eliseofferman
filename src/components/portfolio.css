@@ -1,0 +1,44 @@
+.portfolio-container {
+  padding: 20px;
+  background-color: #C5D2DB;
+}
+
+.projects-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  text-align: center;
+}
+
+.project-container img{
+  width: 100%;
+  height: auto;
+}
+
+@media(min-width:600px){
+  .projects-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width:900px){
+  .projects-container{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@keyframes spin {
+  0%, 100% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(1.05)
+  }
+}
+
+
+.project-container:hover {
+  animation: spin 1s ease-out;
+}

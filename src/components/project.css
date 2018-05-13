@@ -1,0 +1,30 @@
+
+.project{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+  background-color: #c58896b8;
+}
+
+.project-content {
+  padding: 40px;
+}
+
+.project img{
+  width: 100%;
+  height: auto;
+}
+
+.project-content a {
+  font-size: 16px;
+  color: #2096BA;
+  font-family: monospace;
+  letter-spacing: 1px;
+  /* margin-bottom: 20px; */
+}
+
+@media(min-width:800px){
+  .project{
+    grid-template-columns: 1fr 1fr;
+  }
+}
