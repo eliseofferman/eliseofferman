@@ -1,5 +1,5 @@
 import React from "react"
-import { Hashrouter, Route, Link } from "react-router-dom"
+import { HashRouter, Route, Link } from "react-router-dom"
 import Header from "./header"
 import Hero from "./hero"
 import StartContent from "./start-content"
@@ -13,7 +13,7 @@ import "./app.css"
 class App extends React.Component {
   render() {
     return (
-      <Hashrouter>
+      <HashRouter>
         <div className="manin-container">
           <Header />
           <Route exact path="/" component={Hero} />
@@ -24,7 +24,7 @@ class App extends React.Component {
           <Route path="/projects/:projectId" component={Project} />
           <Footer />
         </div>
-      </Hashrouter>
+      </HashRouter>
     )
   }
 }
