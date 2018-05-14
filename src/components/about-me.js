@@ -1,7 +1,7 @@
 import React from "react"
 import "./about-me.css"
 
-import meImage from "./elise.jpg"
+import meImage from "images/elise.jpg"
 
 class AboutMe extends React.Component {
   render() {

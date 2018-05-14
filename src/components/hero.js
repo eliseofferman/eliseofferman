@@ -1,6 +1,6 @@
 import React from "react"
+import background from "images/flowers.jpg"
 import "./hero.css"
-import background from "./flowers.jpg"
 
 class Hero extends React.Component {
   render() {
@@ -21,6 +21,3 @@ class Hero extends React.Component {
 }
 
 export default Hero
-
-// link:"https://github.com/eliseofferman/radio",
-// link2:"https://eliseofferman.github.io/radio/"

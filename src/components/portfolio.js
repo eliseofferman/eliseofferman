@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "react-router-dom"
 import "./portfolio.css"
 import data from "../data"
-// import background from "./flowers.jpg"
 
 class Portfolio extends React.Component {
   render() {

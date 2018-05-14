@@ -1,6 +1,6 @@
 import React from "react"
+import linkedin from "images/linkedin.png"
 import "./contact.css"
-import linkedin from "./linkedin.png"
 
 class Contact extends React.Component {
   render() {

@@ -2,8 +2,6 @@ import React from "react"
 import data from "../data"
 import "./project.css"
 
-import background from "./flowers.jpg"
-
 class Project extends React.Component {
   constructor(props) {
     super(props)
@@ -25,8 +23,7 @@ class Project extends React.Component {
     if (this.state.project) {
       return (
         <div className="project">
-          <img src={this.state.project.image} alt="project-image" />
-          {/* <img src={background} alt="project-image" /> */}
+          <img src={ this.state.project.image } alt="project-image" />
           <div className="project-content">
             <h3>{this.state.project.name}</h3>
             <h4>{this.state.project.description}</h4>
