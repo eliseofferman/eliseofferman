@@ -1,12 +1,14 @@
 {
-  "main.css": "static/css/main.3cd1a970.css",
-  "main.css.map": "static/css/main.3cd1a970.css.map",
-  "main.js": "static/js/main.bad232c2.js",
-  "main.js.map": "static/js/main.bad232c2.js.map",
-  "static/media/easter-hunt-image.png": "static/media/easter-hunt-image.e97b1903.png",
+  "main.css": "static/css/main.ff3a61ab.css",
+  "main.css.map": "static/css/main.ff3a61ab.css.map",
+  "main.js": "static/js/main.0166b531.js",
+  "main.js.map": "static/js/main.0166b531.js.map",
+  "static/media/app2.png": "static/media/app2.cb34c0ed.png",
+  "static/media/easter1.jpg": "static/media/easter1.b2eb2337.jpg",
+  "static/media/easter2.png": "static/media/easter2.b85576ec.png",
   "static/media/elise.jpg": "static/media/elise.68a7ec97.jpg",
   "static/media/flowers.jpg": "static/media/flowers.8280baa4.jpg",
-  "static/media/radio-image.png": "static/media/radio-image.505c69fa.png",
-  "static/media/sustainable-app.png": "static/media/sustainable-app.cb34c0ed.png",
-  "static/media/webbshop-image.png": "static/media/webbshop-image.d96394b8.png"
+  "static/media/radio2.png": "static/media/radio2.505c69fa.png",
+  "static/media/webbshop.png": "static/media/webbshop.07f79584.png",
+  "static/media/webbshop2.png": "static/media/webbshop2.d96394b8.png"
 }
