@@ -1,5 +1,16 @@
 .contact-container {
   background-color: #C5D2DB;
-  height: 300px;
-  padding: 20px;
+  height: 80vh;
+  padding: 50px;
+}
+
+
+.contact-container h4 {
+  margin-bottom: 30px;
+}
+
+
+.contact-container p{
+  margin-bottom: 10px;
+  font-weight: bold;
 }

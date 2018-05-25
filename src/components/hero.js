@@ -11,10 +11,10 @@ class Hero extends React.Component {
         <div className="text-box">
           <h1>Welcome!</h1>
           <h4>
-            My name is Elise Offerman and I am a front-end developer and a mechanical design engineer.
+            My name is Elise Offerman and I am a junior frontend developer and a design engineer. Get to know me and my skills a bit better by have a look around on my website.
           </h4>
         </div>
-
+        
       </div>
     )
   }

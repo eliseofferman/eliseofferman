@@ -2,8 +2,10 @@
 .project{
   display: grid;
   grid-template-columns: 1fr;
-  padding: 20px;
+  padding: 50px;
   background-color: #c58896b8;
+  /* height: 80vh; */
+  align-items: center;
 }
 
 .project-content {
@@ -18,13 +20,13 @@
 .project-content a {
   font-size: 16px;
   color: #2096BA;
-  font-family: monospace;
+  font-family: "Lato", sans-serif;
   letter-spacing: 1px;
-  /* margin-bottom: 20px; */
 }
 
 @media(min-width:800px){
   .project{
     grid-template-columns: 1fr 1fr;
+    height: 80vh;
   }
 }

@@ -23,10 +23,10 @@ class Project extends React.Component {
     if (this.state.project) {
       return (
         <div className="project">
-          <img src={ this.state.project.image } alt="project-image" />
+          <img src={ this.state.project.image2 } alt="project-image" />
           <div className="project-content">
             <h3>{this.state.project.name}</h3>
-            <h4>{this.state.project.description}</h4>
+            <p>{this.state.project.description}</p>
             <a href={this.state.project.link2} target="_blank" rel="noreferrer noopener">Link to see the project in the <b>web browser</b> </a>
             <br/>
             <a href={this.state.project.link} target="_blank" rel="noreferrer noopener">Link to <b>code</b> on <b>Github</b> </a>

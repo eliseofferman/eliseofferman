@@ -1,9 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import TypeWriter from "react-typewriter"
 import "./start-content.css"
 import data from "../data"
-// import background from "./flowers.jpg"
 
 class StartContent extends React.Component {
   render() {
@@ -27,12 +25,12 @@ class StartContent extends React.Component {
         </div>
         <div className="skills-contatiner">
           <h2>My developer skills</h2>
-          <TypeWriter typing={1}><h3>Html</h3></TypeWriter>
-          <TypeWriter typing={0.2}><h3>CSS</h3></TypeWriter>
-          <TypeWriter typing={0.2}><h3>JavaScript</h3></TypeWriter>
-          <TypeWriter typing={0.2}><h3>React</h3></TypeWriter>
-          <TypeWriter typing={0.2}><h3>Node.js</h3></TypeWriter>
-          <TypeWriter typing={0.2}><h3>MongoDB</h3></TypeWriter>
+          <h3>Html</h3>
+          <h3>CSS</h3>
+          <h3>JavaScript</h3>
+          <h3>React.js</h3>
+          <h3>Node.js</h3>
+          <h3>MongoDB</h3>
         </div>
 
       </div>

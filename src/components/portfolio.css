@@ -1,12 +1,12 @@
 .portfolio-container {
-  padding: 20px;
+  padding: 50px;
   background-color: #C5D2DB;
 }
 
 .projects-container{
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 40px;
+  grid-gap: 50px;
   text-align: center;
 }
 

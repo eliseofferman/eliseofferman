@@ -12,6 +12,14 @@ class Header extends React.Component {
             <img className="name-large" src={logoName} alt="logo-elise-offerman" />
           </Link>
 
+          <label for="hamburger" className="hamburger-label">
+            <div className="bar"> </div>
+            <div className="bar"> </div>
+            <div className="bar"> </div>
+          </label>
+
+          <input id="hamburger" type="checkbox" className="hamburger-checkbox" />
+
           <ul className="menu-container">
             <li>
               <Link to="/portfolio"> Portfolio </Link>
@@ -23,6 +31,7 @@ class Header extends React.Component {
               <Link to="/contact"> Contact </Link>
             </li>
           </ul>
+
         </div>
       </header>
     )
