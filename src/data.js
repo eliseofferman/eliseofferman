@@ -8,6 +8,8 @@ import easterHunt from "images/easter1.jpg"
 import easterHunt2 from "images/easter2.png"
 import forum from "images/forum1.png"
 import forum2 from "images/forum3.png"
+import unpickyplants1 from "images/un-pickyplants1.png"
+import unpickyplants2 from "images/un-pickyplants2.png"
 
 export default [
   {
@@ -55,6 +57,16 @@ export default [
     image2: forum2,
     link: "https://github.com/eliseofferman/q-a-forum",
     link2: "https://eliseofferman.github.io/q-a-forum/"
+  },
+
+  {
+    id: "un-pickyplants",
+    name: "Un-picky plants",
+    description: "This was the final project at the Technigo bootcamp. The site recommends indoor plants for people the want a easy maintained plant but dont have the time and interest in plants. I build this together with my classmate Johanna.",
+    image: unpickyplants1,
+    image2: unpickyplants2,
+    link: "https://github.com/Johannahok/Un-pickyplants",
+    link2: "https://johannahok.github.io/Un-pickyplants/"
   }
 
 ]
