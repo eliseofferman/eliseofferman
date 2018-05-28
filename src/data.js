@@ -53,8 +53,8 @@ export default [
     description: "The aim of this project was to learn Node.js and work with the database MongoDB. The result is a Q&A Forum where the user gan ask a question and the admin can answer form a admin site.",
     image: forum,
     image2: forum2,
-    link: "https://github.com/eliseofferman/radio",
-    link2: "https://eliseofferman.github.io/radio/"
+    link: "https://github.com/eliseofferman/q-a-forum",
+    link2: "https://eliseofferman.github.io/q-a-forum/"
   }
 
 ]
