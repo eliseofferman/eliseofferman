@@ -16,9 +16,7 @@ class AboutMe extends React.Component {
             <p>My academic background has given me tools for problem solving and logical thinking, which has helped me a lot in the process of learning programing. I also have with me the “design thinking” when it comes to product development and user-centered design. It is something I hope I can develop as a programmer and implement for the products I am gonna build.</p>
             <p>On the side I have a huge passion for nature and love to sped my free time outside. I am always up for a cycling or biking adventure.</p>
           </div>
-
           <img src={meImage} alt="project-image" />
-
         </div>
       </div>
     )}}

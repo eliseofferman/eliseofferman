@@ -11,7 +11,7 @@ class StartContent extends React.Component {
           <h2>Projects</h2>
           <div className="projects-container">
             {data.map((project, index) => {
-              if(index === 1 || index === 2 || index === 3) {
+              if(index === 0 || index === 1 || index === 2) {
                 return <div className="project-container" key={project.id}>
                   <Link to={`/projects/${project.id}`}>
                     <img src={project.image} alt="project-img" />
